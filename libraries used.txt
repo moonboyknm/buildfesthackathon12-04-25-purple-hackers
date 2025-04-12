@@ -1,0 +1,49 @@
+what were the libraries used in this project
+Based on the search results, several Python libraries were used in fake review detection
+projects. Here's a comprehensive list of the libraries commonly used in these projects:
+
+Core Libraries
+Pandas: Used for data manipulation and analysis, particularly for handling CSV files and
+dataframes [1] [2] .
+NumPy: Provides support for large, multi-dimensional arrays and matrices, along with
+mathematical functions to operate on these elements [1] .
+scikit-learn: Offers various machine learning algorithms and tools for model training,
+evaluation, and feature extraction including:
+Feature extraction tools like TF-IDF vectorizer [3] [1]
+Classification algorithms like Logistic Regression, SVM, Random Forest [1] [2]
+Model selection tools for train-test splitting [1] [2]
+
+Natural Language Processing (NLP) Libraries
+NLTK (Natural Language Toolkit): A comprehensive library for NLP tasks including
+tokenization, stemming, lemmatization, and more [1] [4] [5] .
+spaCy: A modern NLP library that provides advanced capabilities for text processing with
+efficiency and speed [4] [6] .
+Gensim: Used for topic modeling and identifying semantic similarity between documents
+through vector space modeling [3] .
+
+Text Preprocessing Tools
+re (Regular Expressions): Used for text pattern matching and cleaning [7] [1] .
+string: Provides common string operations useful in text preprocessing [7] [1] .
+
+Visualization Libraries
+Matplotlib.pyplot: Used for creating static, interactive, and animated visualizations [1] .
+Seaborn: Built on top of Matplotlib, provides a high-level interface for drawing attractive
+statistical graphics [1] .
+
+Web Application Framework
+Streamlit: Used for creating interactive web applications for the fake review detection
+system, allowing users to upload CSV files and view results [7] .
+
+Additional Libraries
+Warnings: Used for handling warning messages during execution [1] .
+nltk.corpus: Provides access to corpus readers for various corpora, including stopwords
+which are commonly removed during text preprocessing [1] .
+These libraries collectively enable the complete workflow of fake review detection, from data
+loading and preprocessing to model training, evaluation, and deployment as an interactive
+application. The most successful models for fake review detection appear to be Support Vector
+Machines (with 88% accuracy) and Logistic Regression (with 86% accuracy) according to the
+performance overview mentioned in the search results [1] .
+⁂
+
+
+

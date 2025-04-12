@@ -1,0 +1,50 @@
+explain this code to me in a very simple way
+Certainly! I'll explain the code in a simple, step-by-step manner:
+
+1. Setting up the page:
+The code creates a web page using Streamlit, titled "Fake Review Detection System".
+It asks users to upload a CSV file containing reviews.
+
+2. Text cleaning function:
+There's a function that cleans up the review text:
+It makes all letters lowercase
+Removes punctuation, numbers, and extra spaces
+
+3. File upload:
+Users can upload a CSV file through the web interface.
+
+4. Processing the uploaded file:
+If a file is uploaded, the code reads it.
+It shows a preview of the data.
+
+5. Checking the data:
+The code checks if the CSV has the necessary 'text' column.
+If there's also a 'label' column, it uses that for training. Otherwise, it uses a pre-made
+model.
+
+6. Training the model (if labels are provided):
+If labels are present, it splits the data into training and testing sets.
+It converts the text into numbers using TF-IDF (a way to represent text as numbers).
+It trains a Logistic Regression model to classify reviews.
+It then evaluates how well the model performs.
+
+7. Using a pre-trained model (if no labels):
+If there are no labels, it uses a simple pre-made model trained on a few example
+reviews.
+
+8. Classifying reviews:
+Whether using a new model or the pre-made one, it then classifies all the reviews in the
+uploaded file.
+
+9. Showing results:
+The code displays the classified reviews, separating them into "Real" and "Fake".
+It shows how many reviews were classified as real or fake.
+Users can download the classified reviews as CSV files.
+
+10. Instructions:
+At the end, it provides instructions on how to run this program on your own computer.
+In essence, this code creates a web app where you can upload reviews, and it will try to
+determine which ones are real and which ones are fake, either by learning from your data (if you
+provide labels) or by using a simple pre-made model.
+
+
