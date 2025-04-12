@@ -1,6 +1,4 @@
-what were the libraries used in this project
-Based on the search results, several Python libraries were used in fake review detection
-projects. Here's a comprehensive list of the libraries commonly used in these projects:
+Here's a comprehensive list of the libraries commonly used in these projects:
 
 Core Libraries
 Pandas: Used for data manipulation and analysis, particularly for handling CSV files and
